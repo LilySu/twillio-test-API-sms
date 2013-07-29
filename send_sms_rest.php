@@ -4,8 +4,8 @@
 	require "twilio-php-master/Services/Twilio.php";
 
 	// Step 2: set our AccountSid and AuthToken from www.twilio.com/user/account
-	$AccountSid = "AC3bd4f4ba9aadf83b561c16f5f4237cad";
-	$AuthToken = "1378bbbbb7d2d3eab1e3415b4eaa20d3";
+	$AccountSid = "xxx";
+	$AuthToken = "xxx";
 
 	// Step 3: instantiate a new Twilio Rest Client
 	$client = new Services_Twilio($AccountSid, $AuthToken);
